@@ -10,11 +10,12 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-07-05
-last_modified_at: 2020-07-05
+date: 2021-07-20
+last_modified_at: 2020-07-20
 --- 
 
-### test
+### second post
 -----
 
-this is test markdown text...
+wanna make category!!
+-----
