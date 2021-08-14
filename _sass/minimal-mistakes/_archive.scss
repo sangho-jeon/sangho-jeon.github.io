@@ -5,6 +5,8 @@
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
+  background-color: #cdd5d3;
+  border-radius: 10px;
 
   @include breakpoint($large) {
     float: right;
@@ -33,10 +35,11 @@
 
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
+  padding-left: 10px;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
   color: $muted-text-color;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 2px solid $border-color;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -51,7 +54,7 @@
   text-overflow: ellipsis;
 
   a[rel="permalink"]::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -125,6 +128,7 @@
    ========================================================================== */
 
 .list__item {
+  padding-left: 10px;
   .page__meta {
     margin: 0 0 4px;
     font-size: 0.6em;
@@ -285,7 +289,7 @@
   }
 
   a.btn::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -311,7 +315,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -352,7 +356,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -396,7 +400,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -442,7 +446,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -457,7 +461,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }
